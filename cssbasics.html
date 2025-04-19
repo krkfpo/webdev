@@ -145,6 +145,15 @@
 
     a {
         color: rgb(0, 113, 133);
+        transition: color 0.15s;
+    }
+
+    a:hover {
+        color: rgb(62, 49, 23);
+    }
+
+    a:active {
+        color: rgb(43, 34, 16);
     }
 
     .productDescription {
@@ -164,6 +173,15 @@
         height: 30px;
         width: 110px;
         border-radius: 50px;
+        transition: background-color 0.2s, opacity 0.2s;
+    }
+
+    .amazon-cart:hover {
+        background-color: rgb(188, 159, 10);
+    }
+
+    .amazon-cart:active {
+        opacity: 0.6;
     }
 
     .amazon-buy {
@@ -173,6 +191,15 @@
         height: 30px;
         width: 110px;
         border-radius: 50px;
+        transition: background-color 0.15s, opacity 0.5s;
+    }
+
+    .amazon-buy:hover {
+        background-color: rgb(184, 117, 17);
+    }
+
+    .amazon-buy:active {
+        opacity: 0.6;
     }
 </style>
 <button class="uber-button">Request now</button>
