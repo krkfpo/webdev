@@ -120,6 +120,38 @@
         margin: 10px 48.5%;
         cursor: button;
     }
+
+    .price,
+    .price-change,
+    .price-changeToday {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .price {
+        /* font-weight: 500;  no need , if you only make the font big it will become darker*/
+        font-size: 30px;
+
+    }
+
+    .currency {
+        font-size: 15px;
+        color: rgb(92, 88, 88);
+    }
+
+    .price-change {
+        color: green;
+        font-size: 14px;
+    }
+
+    .price-changeToday {
+        color: rgb(92, 88, 88);
+        font-size: 14px;
+    }
+
+    .derease {
+        color: red;
+        font-size: 14px;
+    }
 </style>
 
 
@@ -153,3 +185,8 @@
 <p class="macbook-subtitle">Supercharged for pros.</p>
 <p class="macbook-price">From $1999</p>
 <button class="macbook-cta">Buy</button>
+
+<hr>
+<p class="price">1,049.61 <span class="currency">USD</span></p>
+<p class="price-change">&#x2b;18.05 &#x28;1.75&#x25;&#x29; today</p>
+<p class="price-changeToday">After hours 1,048.00 <span class="derease">&#x2212;1.61&#x28;0.15&#x25;&#x29;</span></p>
