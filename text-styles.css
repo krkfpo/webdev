@@ -1,0 +1,178 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tahoma {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.deal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  width: 380px;
+}
+
+.deal-end {
+  font-weight: normal;
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 280px;
+}
+
+.cta {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  padding: 5px 11px;
+  cursor: pointer;
+}
+
+.apple-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.apple-description {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+
+.apple-learn {
+  color: rgb(13, 114, 181);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.macbook-release {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: orangered;
+  font-weight: bold;
+}
+
+.macbook-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.macbook-subtitle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.macbook-price {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.macbook-cta {
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: rgb(0, 102, 204);
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 48.5%;
+  cursor: button;
+}
+
+.price,
+.price-change,
+.price-changeToday {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+  /* font-weight: 500;  no need , if you only make the font big it will become darker*/
+  font-size: 30px;
+}
+
+.currency {
+  font-size: 15px;
+  color: rgb(92, 88, 88);
+}
+
+.price-change {
+  color: green;
+  font-size: 14px;
+}
+
+.price-changeToday {
+  color: rgb(92, 88, 88);
+  font-size: 14px;
+}
+
+.derease {
+  color: red;
+  font-size: 14px;
+}
+
+.email {
+  color: rgb(13, 114, 181);
+  cursor: pointer;
+}
+
+.email-header,
+.email-description,
+.email-detail {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 550px;
+}
+
+.email-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sender {
+  color: grey;
+  font-weight: normal;
+}
+
+.email-detail {
+  margin-top: 18px;
+}
