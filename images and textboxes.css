@@ -46,7 +46,6 @@ p {
   margin: 5px 0;
 }
 
-
 .join {
   font-size: 20px;
 }
@@ -56,12 +55,12 @@ p {
   width: 300px;
 }
 .terms,
-.join{
-    text-align: center;
+.join {
+  text-align: center;
 }
-.email{
-    padding:5px 10px;
-    width: 280px;
+.email {
+  padding: 5px 10px;
+  width: 280px;
 }
 
 .join {
@@ -71,5 +70,37 @@ p {
   border: none;
   background-color: rgb(0, 58, 135);
   color: white;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.message {
+  vertical-align: middle;
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+  border-bottom: 3px soild grey;
+  border-radius: 30px;
+  width: 270px;
+  outline: none;
+}
+.tweet {
+  vertical-align: middle;
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(25, 116, 201);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.message,
+.tweet {
+  font-size: 15px;
 }
