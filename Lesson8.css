@@ -1,4 +1,4 @@
-input {
+.input {
   line-height: 23px;
   padding: 5px 13px;
   border: none;
@@ -14,12 +14,49 @@ p {
   vertical-align: middle;
 }
 
-img{
-    display:block;
-    width:250px;
-    margin:0 auto;
+img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
 }
 .gsearch {
   width: 450px;
-  margin:15px auto;
+  margin: 15px auto;
+}
+
+.signUp {
+  padding: 10px 95px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(38, 110, 235);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.fname,
+.lname,
+.email {
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+.email,
+.signUp {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fname,
+.lname {
+  width: 120px;
+  margin-bottom: 10px;
+}
+.email {
+  width: 245px;
 }
