@@ -1,0 +1,18 @@
+.roundedcorner {
+  width: 200px;
+  border-radius: 10px;
+}
+.squareimg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.circleimg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border-radius alone can't make the image round,
+  It need to have height = width to become round else it will be oval */
+}
