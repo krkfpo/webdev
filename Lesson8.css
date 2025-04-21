@@ -7,3 +7,9 @@ input {
   display: block;
   margin: 10px;
 }
+
+p{
+    width:200px;
+    display:inline-block;
+    vertical-align:middle;
+}
