@@ -1,3 +1,10 @@
+p,
+input,
+button {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .roundedcorner {
   width: 200px;
   border-radius: 10px;
@@ -24,12 +31,45 @@
   border-width: 1.2px;
 }
 
-.googlesearch{
-    width:400px;
-    border-radius: 200px;
-    border:none;
-    border-width: 1.3px;
-    line-height: 20px;
-    padding:7px 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+.googlesearch {
+  width: 400px;
+  border-radius: 200px;
+  border: none;
+  border-width: 1.3px;
+  line-height: 20px;
+  padding: 7px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+
+.join {
+  font-size: 20px;
+}
+
+.email,
+.terms {
+  width: 300px;
+}
+.terms,
+.join{
+    text-align: center;
+}
+.email{
+    padding:5px 10px;
+    width: 280px;
+}
+
+.join {
+  padding: 5px 95px;
+  text-align: center;
+  border-radius: 150px;
+  border: none;
+  background-color: rgb(0, 58, 135);
+  color: white;
+  cursor:pointer;
 }
