@@ -16,3 +16,20 @@
   /* border-radius alone can't make the image round,
   It need to have height = width to become round else it will be oval */
 }
+.search {
+  line-height: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.2px;
+}
+
+.googlesearch{
+    width:400px;
+    border-radius: 200px;
+    border:none;
+    border-width: 1.3px;
+    line-height: 20px;
+    padding:7px 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
