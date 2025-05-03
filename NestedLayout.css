@@ -3,30 +3,33 @@ p {
   font-family: Roboto, Arial;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.video-details {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
 .video-preview {
-  width: 300px;
-  display: inline-block;
-  margin-right: 12px;
   vertical-align: top;
 }
-.video-thumbnail > img {
+.video-thumbnail img {
   width: 100%;
 }
 
 .channel-pic {
-  width: 40px;
-  display: inline-block;
   vertical-align: top;
   margin-right: 15px;
 }
 
-.channel-pic > img {
+.channel-pic img {
   width: 100%;
   border-radius: 50%;
-}
-.video-info {
-  display: inline-block;
-  width: 240px;
 }
 
 .video-thumbnail {
